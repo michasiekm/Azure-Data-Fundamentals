@@ -19,6 +19,6 @@ OLAP - systems are designed to support complex analysis of large volumes of data
 So the prime difference between them is: OLTP handles transactional processing for business operations such as order processing, inventory management, and other day-to-day activities and OLAP is focused on analyzing and reporting data for business intelligence purposes. Important is also the volume difference OLTP databases typically handle large numbers of small transactions and are designed to handle high-volume, low-latency workloads.
 
 Job roles in data:  
-Database administorator: responsible for managing and maintaining databases, ensuring data security and integrity, and optimizing database performance. They also monitor database usage to identify and resolve issues that impact performance.  
-Data engineer: responsible for designing, building, and maintaining the systems and infrastructure, working with data storage, processing, and integration technologies.
-Data Analyst: collect and analyze data to help organizations make better decisions. They work with databases and analytical tools to find patterns and insights that can help improve business performance.
+- Database administorator: responsible for managing and maintaining databases, ensuring data security and integrity, and optimizing database performance. They also monitor database usage to identify and resolve issues that impact performance.  
+- Data engineer: responsible for designing, building, and maintaining the systems and infrastructure, working with data storage, processing, and integration technologies.  
+- Data Analyst: collect and analyze data to help organizations make better decisions. They work with databases and analytical tools to find patterns and insights that can help improve business performance.
