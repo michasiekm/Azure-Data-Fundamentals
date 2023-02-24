@@ -14,5 +14,6 @@ Non-relational database, also known as NoSQL database, is a type of database tha
 
 OLTP - database system designed to manage transaction-oriented applications. Its systems are used for transactional processing where large volumes of data transactions are processed in real-time. The main thing is to manage individual transactions, such as adding, updating, or deleting records in a database. Is for read/write operations. Provides ACID (Atomicity, Consistency, Isolation, and Durability) properties 
 
-
 OLAP - systems are designed to support complex analysis of large volumes of data and enable users to explore data from different dimensions and perspectives.. It is used to support business decision-making and data analytics. OLAP systems store historical data, which enables users to analyze trends and patterns over time. Online Analytical Processing systems summarize data at different levels of aggregation, such as by day, week, or month, to provide a high-level overview of data.
+
+So the prime difference between them is: OLTP handles transactional processing for business operations such as order processing, inventory management, and other day-to-day activities and OLAP is focused on analyzing and reporting data for business intelligence purposes. Important is also the volume difference OLTP databases typically handle large numbers of small transactions and are designed to handle high-volume, low-latency workloads.
