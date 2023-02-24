@@ -21,4 +21,16 @@ So the prime difference between them is: OLTP handles transactional processing f
 Job roles in data:  
 - Database administorator: responsible for managing and maintaining databases, ensuring data security and integrity, and optimizing database performance. They also monitor database usage to identify and resolve issues that impact performance.  
 - Data engineer: responsible for designing, building, and maintaining the systems and infrastructure, working with data storage, processing, and integration technologies.  
-- Data Analyst: collect and analyze data to help organizations make better decisions. They work with databases and analytical tools to find patterns and insights that can help improve business performance.
+- Data Analyst: collect and analyze data to help organizations make better decisions. They work with databases and analytical tools to find patterns and insights that can help improve business performance.  
+
+
+Data services:  
+- Azure SQL: managed relational database service, it has several services like: Azure SQL Database, Azure SQL Managed Instance, Azure SQL VM,  
+- Opensource databases: including Azure Database for MySQL, Azure Database for MariaDB, Azure Database for PostgreSQL,  
+- Cosmos DB: fully managed NoSQL database service that offers global distribution, elastic scalability, and multiple APIs (e.g., SQL, MongoDB, Cassandra) to meet different data storage and access requirements,  
+- Azure Storage: cloud storage service that offers scalable and durable storage for different types of data (e.g., blobs, files, queues, tables) and various access tiers (e.g., hot, cool, archive) based on the frequency of data access,  
+- Data Factory: cloud-based data integration service that allows users to create, schedule, and manage workflows to move and transform data across various sources and destinations,  
+- Synapse Analytics: combines big data and data warehousing to enable users to ingest, prepare, manage, and serve data for business intelligence and machine learning purposes,  
+- Databricks: Apache Spark-based analytics service that allows users to build and train machine learning models at scale, using languages like Python, R, or Scala,  
+- HDInsight: Enables users to process and analyze large-scale data using popular open-source frameworks such as Hadoop, Spark, Hive, or HBase, 
+- Data explorer: designed for log and telemetry data analysis, providing real-time querying and visualization capabilities.
