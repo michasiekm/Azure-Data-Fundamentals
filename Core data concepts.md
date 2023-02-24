@@ -16,13 +16,7 @@ OLTP - database system designed to manage transaction-oriented applications. Its
 
 OLAP - systems are designed to support complex analysis of large volumes of data and enable users to explore data from different dimensions and perspectives.. It is used to support business decision-making and data analytics. OLAP systems store historical data, which enables users to analyze trends and patterns over time. Online Analytical Processing systems summarize data at different levels of aggregation, such as by day, week, or month, to provide a high-level overview of data.
 
-So the prime difference between them is: OLTP handles transactional processing for business operations such as order processing, inventory management, and other day-to-day activities and OLAP is focused on analyzing and reporting data for business intelligence purposes. Important is also the volume difference OLTP databases typically handle large numbers of small transactions and are designed to handle high-volume, low-latency workloads.
-
-Job roles in data:  
-- Database administorator: responsible for managing and maintaining databases, ensuring data security and integrity, and optimizing database performance. They also monitor database usage to identify and resolve issues that impact performance.  
-- Data engineer: responsible for designing, building, and maintaining the systems and infrastructure, working with data storage, processing, and integration technologies.  
-- Data Analyst: collect and analyze data to help organizations make better decisions. They work with databases and analytical tools to find patterns and insights that can help improve business performance.  
-
+So the prime difference between them is: OLTP handles transactional processing for business operations such as order processing, inventory management, and other day-to-day activities and OLAP is focused on analyzing and reporting data for business intelligence purposes. Important is also the volume difference OLTP databases typically handle large numbers of small transactions and are designed to handle high-volume, low-latency workloads.  
 
 Data services:  
 - Azure SQL: managed relational database service, it has several services like: Azure SQL Database, Azure SQL Managed Instance, Azure SQL VM,  
@@ -33,4 +27,9 @@ Data services:
 - Synapse Analytics: combines big data and data warehousing to enable users to ingest, prepare, manage, and serve data for business intelligence and machine learning purposes,  
 - Databricks: Apache Spark-based analytics service that allows users to build and train machine learning models at scale, using languages like Python, R, or Scala,  
 - HDInsight: Enables users to process and analyze large-scale data using popular open-source frameworks such as Hadoop, Spark, Hive, or HBase, 
-- Data explorer: designed for log and telemetry data analysis, providing real-time querying and visualization capabilities.
+- Data explorer: designed for log and telemetry data analysis, providing real-time querying and visualization capabilities.  
+
+Job roles in data:  
+- Database administorator: responsible for managing and maintaining databases, ensuring data security and integrity, and optimizing database performance. They also monitor database usage to identify and resolve issues that impact performance.  
+- Data engineer: responsible for designing, building, and maintaining the systems and infrastructure, working with data storage, processing, and integration technologies.  
+- Data Analyst: collect and analyze data to help organizations make better decisions. They work with databases and analytical tools to find patterns and insights that can help improve business performance.  
